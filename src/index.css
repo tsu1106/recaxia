@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/*-----------------------------------------------
+@utility {
+  
+
+}
+*/
+
+/*---------------------------------------*/
+
+
+@source '.node-modules/some-third-party-lib/**/.css';
+
+
+
+  @theme{
+      --transitionProperty: {
+        'position': 'left, right, top, bottom',
+      },
+  }
+
+
+/*-------------------------------------------------*/
+@theme{
+  --dgray: #0b0c10;
+  --lgray: #323232;
+  --ameth: #7385fa;
+  --lblue: #9ddeff;
+  --bteal: #66fcf1;
+}
+
+
+.bg-dgray{
+  background-color: var(--dgray);
+}
+
+.bg-lgray{
+  background-color: var(--lgray);
+}
+.bg-ameth{
+  background-color: var(--ameth);
+}
+
+.text-lgray{
+  color: var(--lgray);
+}
+
+.text-ameth{
+  color: var(--ameth);
+}
+
+
+.text-lblue{
+  color: var(--lblue);
+}
+
+.bg-lblue{
+  background-color: var(--lblue);
+}
+
+.bg-bteal{
+  background-color: var(--bteal);
+}
+
+.text-bteal{
+  color: var(--bteal);
+}
